@@ -1,0 +1,136 @@
+/*
+jumbotron
+ */
+
+#jt-social {
+  background: url("../img/social.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+#jt-estudio {
+  background: url("../img/study.jpg");
+  background-size: cover;
+  color: #fff; 
+}
+
+#jt-salud {
+  background: url("../img/health.jpg");
+  background-size: cover;
+  color: #fff;   
+}
+
+#jt-fiesta {
+  background: url("../img/party.png");
+  background-size: cover;
+  color: #fff;   
+}
+
+#jt-trabajo {
+  background: url("../img/job.jpg");
+  background-size: cover;
+  color: #fff;   
+}
+
+#jt-random {
+  background: url("../img/random.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+/*
+row
+ */
+
+.row h3 {
+  text-align: center;
+}
+
+.row p {
+  text-align: justify;
+}
+
+.row img {
+  height: 300px;
+  width: 350px;
+}
+
+/*
+input
+ */
+
+input[type="text"] {
+  padding: 10px;
+  border: solid 1px #DCDCDC;
+  border-radius: 5px;
+  transition: box-shadow 0.3s, border 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="text"].focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 5px 1px #969696;
+}
+
+/*
+libro
+*/
+#estadoViewer, #viewerCanvas  {
+  display: none;
+}
+
+#viewerCanvas {
+  width: 600px;
+  height: 500px;
+  float: right;
+  margin-bottom: 20px;
+}
+
+/*
+footer
+ */
+footer {
+  border-top: 1px solid black;
+  margin-top: 20px;
+  padding: 20px; 
+}
+
+#top-btn {
+  width: 100px;
+  height: 25px;
+}
+
+/*
+typography
+ */
+
+h1, h2, h3, h4, h5 , h6 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: rgb(202, 7, 0);
+}
+
+h3 {
+  color: rgb(207, 207, 124);
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: rgb(207, 207, 124);
+}
+
+a:visited, a:link, a:active {
+  color: rgb(207, 207, 124);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(78, 40, 11);
+}

@@ -1,0 +1,56 @@
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/*
+nav
+ */
+
+.navbar {
+  margin-bottom: 20px;
+  box-shadow: 7px 7px 5px #888888;
+}
+
+#social:hover {
+  background-color: rgb(92,30,27);
+  color: #fff;
+}
+
+#estudio:hover {
+  background-color: rgb(92,30,27);
+  color: #fff;
+}
+
+#trabajo:hover {
+  background-color: rgb(92,30,27);
+  color: #fff;
+}
+
+#salud:hover {
+  background-color: rgb(92,30,27);
+  color: #fff;
+}
+
+#fiesta:hover {
+  background-color: rgb(92,30,27);
+  color: #fff;
+}
+
+#random:hover {
+   background-color: rgb(92,30,27);
+   color: #fff; 
+}
+
+#acerca:hover {
+   background-color: rgb(92,30,27);
+   color: #fff; 
+}
+
+#contacto:hover {
+   background-color: rgb(92,30,27);
+   color: #fff; 
+}
+
+
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>GUPA | Estudio</title>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../css/animate.css">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/navbar.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../index.html">GUPA</a>
+          </div>
+          <div class="navbar-collapse collapse" id="top">
+            <ul class="nav navbar-nav">
+              <li><a href="estudio.html" id="estudio">Estudio</a></li>
+              <li><a href="trabajo.html" id="trabajo">Trabajo</a></li>
+              <li><a href="salud.html" id="salud">Salud</a></li>
+              <li><a href="fiesta.html" id="fiesta">Fiesta</a></li>
+              <li><a href="random.html" id="random">Random</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </div>
+
+      <div class="jumbotron" id="jt-estudio">
+        <h1>Estudio</h1>
+        <p>La mayor parte del tiempo que estes en la universidad vas a estar estudiando. Tenemos artículos con estrategias y tips para mejorar tus habitos de estudio.</p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="#libro" role="button">Sigue aprendiendo &raquo;</a>
+        </p>
+      </div>
+      <h2>Artículos</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="../img/college-freshman-studying.jpg">
+          <h3><a href="http://www.huffingtonpost.com/2010/09/08/study-tips-for-college-_n_709096.html" target="_blank">9 Tips de Estudio para universitarios</a></h3>
+          <p>
+            Desde la escuela primaria , la mayoría de los estudiantes se les ha enseñado la manera "correcta " para estudiar : Dedícate . Memorice . Encerrarse en una habitación tranquila y no lo deje hasta que conozca el material. Recientemente, sin embargo , el New York Times informó de que muchos de estos hábitos son científicamente errónea , y que algunas...
+        </div>
+        <div class="col-md-4">
+          <img src="../img/effectivestudy.jpg">
+          <h3><a href="http://psychcentral.com/blog/archives/2013/02/08/2-important-strategies-for-effective-studying/" target="_blank">2 estrategias efectivas para el estudio</a></h3>
+          <p>
+           Cada estudiante universitario y estudiante de secundaria cree que él o ella ha perfeccionado un conjunto de técnicas de estudio , útiles de gran eficacia . Solía ​​relectura , un montón de resumir, tomar notas (y delineando ) , y tomando las pequeñas pruebas que le suele encontrar en el final de un capítulo para ayudarme a recordar el material que acabo de leer... 
+          </p>  
+        </div>
+        <div class="col-md-4">
+          <img src="../img/ace.png">
+          <h3><a href="http://www.huffingtonpost.com/2010/12/01/study-tips-for-exams-12-ways-to-ace-your-finals_n_789731.html" target="_blank">12 consejos pasar los exámenes finales</a></h3>
+          <p>
+            Como se acercan a las finales , puede ser difícil recordar que pasarán el estrés, el insomnio y la fuga de cerebros (y , por cierto , también lo hará usted) . Pero también hay miles de maneras de hacer que las próximas semanas más soportable - y para asegurar que usted hace el grado. A continuación , echa un vistazo a consejos de 12 estudios...
+          </p>
+        </div>
+      </div>
+      <h2>Libros</h2>
+      <p>Busca un libro por título:</p>
+      <div class="row" id="libro">
+        <div class="col-md-4">
+          <form name="inputForm" onsubmit="openBookByTitle(this.query.value); return false;" method="get">
+            <input type="text" size="25" name="query"/>  
+            <input type="submit" value="Buscar" class="btn btn-lg btn-primary"/>
+          </form>
+          <div id="viewerStatus"></div>
+        </div>
+        <div class="col-md-8">
+          <div id="viewerCanvas"></div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="pull-right"><a href="#top"><img src="../img/top.png" alt="top" id="top-btn"/></a></div>
+        <p>GUPA © 2015</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <script src="../js/jquery-2.1.4.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/jsapi"></script>
+    <script src="../js/book.js"></script>
+    <script src="../js/animations.js"></script>
+  </body>
+</html>
